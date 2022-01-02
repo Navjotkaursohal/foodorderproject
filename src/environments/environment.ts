@@ -2,12 +2,16 @@
 // `ng build` replaces `environment.ts` with `environment.prod.ts`.
 // The list of file replacements can be found in `angular.json`.
 
+import { HttpClient } from "@angular/common/http";
+
+
 export const environment = {
   production: false,
   baseUrl:'http://13.234.169.43:8000'
 
-};
 
+
+}
 /*
  * For easier debugging in development mode, you can import the following file
  * to ignore zone related error stack frames such as `zone.run`, `zoneDelegate.invokeTask`.
